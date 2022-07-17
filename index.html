@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>ToDoList</title>
+  </head>
+  <body>
+    <h5 class="hidden" id="greeting"></h5>
+    <h1 id="clock">00:00:00</h1>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <form class="hidden" id="login-form">
+        <input type="text" required maxlength="15" placeholder="Write your name"/>
+        <input type="submit" value="Log in"/>
+    </form>
+    <form class="hidden" id="todo-form">
+      <input type="text" required maxlength="50" placeholder="Write a To Do List" required>
+    </form>
+    <ul class="hidden" id="todo-list"></ul>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="js/background.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/greetings.js"></script>
+  </body>
+</html>

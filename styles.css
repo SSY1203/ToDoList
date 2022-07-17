@@ -1,0 +1,89 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+img{
+    height: 100vh;
+    width: 100vw;
+    background-repeat : no-repeat;
+    background-size: cover;
+}
+
+#greeting{
+    color: whitesmoke;
+    font-size: large;
+    margin-top: 10px;
+    width: 98%;
+    top: 0%;
+    position: absolute;
+    text-align: end;
+}
+
+form{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+#clock{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+    width: 100%; 
+    text-align: center; 
+    display: inline-block;
+}
+
+#weather{
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    right: 40%;
+    top: 17%;
+    bottom: 90%;
+}
+#todo-list{
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    right: 40%;
+    top: 35%;
+    bottom: 90%;
+}
+
+#quote{
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    bottom: 10%;
+}
+
+#todo-list li{
+    text-align: left;
+    list-style: circle;
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+#todo-list button{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    /* padding: 2px; */
+    border: none;
+    background: none;
+}
